@@ -577,3 +577,25 @@ nav.scrolled {
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
+/*--------------------------------------------------------------
+15. FOOTER
+--------------------------------------------------------------*/
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 1rem;
+  background-color: #111;     /* Dark footer */
+}
+
+.footer-links a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #1e90ff;             /* DodgerBlue on hover */
+}
